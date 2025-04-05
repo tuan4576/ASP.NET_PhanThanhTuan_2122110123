@@ -2,9 +2,9 @@
 {
     public class Product
     {
-        public int Id { get; set; }
+       public int Id { get; set; } // phải có khóa chính
         public string Name { get; set; }
-        public double Price { get; set; }
-        public double Image { get; set; }
+        public decimal Price { get; set; }
+        public string? Image { get; set; } 
     }
 }

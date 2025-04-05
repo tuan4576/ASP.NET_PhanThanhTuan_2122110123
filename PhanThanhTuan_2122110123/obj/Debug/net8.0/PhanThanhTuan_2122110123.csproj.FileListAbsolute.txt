@@ -170,3 +170,4 @@ D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\refint\Pha
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\PhanThanhTuan_2122110123.pdb
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\PhanThanhTuan_2122110123.genruntimeconfig.cache
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\ref\PhanThanhTuan_2122110123.dll
+D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

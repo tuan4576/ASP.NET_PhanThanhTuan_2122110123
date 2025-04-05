@@ -11,7 +11,7 @@ using PhanThanhTuan_2122110123.Data;
 namespace PhanThanhTuan_2122110123.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250329024510_InitialCreate")]
+    [Migration("20250405024630_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -32,15 +32,15 @@ namespace PhanThanhTuan_2122110123.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<double>("Image")
-                        .HasColumnType("float");
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
