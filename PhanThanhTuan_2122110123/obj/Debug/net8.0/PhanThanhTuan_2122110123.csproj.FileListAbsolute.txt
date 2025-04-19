@@ -166,10 +166,11 @@ D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\staticweba
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PhanThanhTuan_2122110123.props
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PhanThanhTuan_2122110123.props
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\staticwebassets.pack.json
-D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\PhanThan.FC178590.Up2Date
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\PhanThanhTuan_2122110123.dll
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\refint\PhanThanhTuan_2122110123.dll
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\PhanThanhTuan_2122110123.pdb
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\PhanThanhTuan_2122110123.genruntimeconfig.cache
 D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\ref\PhanThanhTuan_2122110123.dll
+D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\bin\Debug\net8.0\PhanThanhTuan_2122110123.staticwebassets.runtime.json
+D:\PhanThanhTuan_2122110123\PhanThanhTuan_2122110123\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

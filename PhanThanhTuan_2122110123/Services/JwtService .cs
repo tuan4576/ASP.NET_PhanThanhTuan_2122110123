@@ -36,7 +36,7 @@ namespace PhanThanhTuan_2122110123.Services
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-
+        
         public string ValidateToken(string token)
         {
             var tokenHandler = new JwtSecurityTokenHandler();

@@ -14,6 +14,12 @@
 
         public string Address { get; set; }
 
+        // public ICollection<Order> Orders { get; set; }
+
+        // public ICollection<Product> Products { get; set; }
+
+        // public ICollection<Category> Category { get; set; }
+
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
         public DateTime UpdatedAt { get; set; } = DateTime.Now;

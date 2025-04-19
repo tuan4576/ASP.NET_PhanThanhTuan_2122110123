@@ -2,9 +2,18 @@
 {
     public class Product
     {
-       public int Id { get; set; } // phải có khóa chính
+        public int Id { get; set; } // Khóa chính
         public string Name { get; set; }
-        public decimal Price { get; set; }
-        public string? Image { get; set; } 
+        public string Description { get; set; } // Mô tả sản phẩm
+        public double Price { get; set; }
+        // public int Quantity { get; set; } // Số lượng tồn kho
+        public string Image { get; set; } // Đường dẫn hình ảnh
+
+        public int CategoryId { get; set; }
+        public int UserCreateAt { get; set; }
+
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
     }
 }

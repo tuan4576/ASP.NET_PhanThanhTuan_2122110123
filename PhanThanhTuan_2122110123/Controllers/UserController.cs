@@ -1,9 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.Win32;
 using PhanThanhTuan_2122110123.Data;
 using PhanThanhTuan_2122110123.Model;
 using PhanThanhTuan_2122110123.Services;
 using PhanThanhTuan_2122110123.Services.DTO;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace PhanThanhTuan_2122110123.Controllers
 {
@@ -69,6 +73,8 @@ namespace PhanThanhTuan_2122110123.Controllers
 
             return Ok(new { message = "Đăng nhập thành công", token, user.Name, user.Email });
         }
+   
+
 
         //[HttpPost("logout")]
         //public IActionResult Logout()

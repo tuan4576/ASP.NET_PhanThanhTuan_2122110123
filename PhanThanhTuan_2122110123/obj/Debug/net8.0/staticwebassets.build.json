@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "4ga5TnlnqvAcnitsrNw8qMs0BGl19oykK1a8/Oy5t1k=",
+  "Hash": "z6ldfjVaHLjeQDCBmLcYwcKnr2JSPSq0PJDCCpJnJt8=",
   "Source": "PhanThanhTuan_2122110123",
   "BasePath": "_content/PhanThanhTuan_2122110123",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "PhanThanhTuan_2122110123\\wwwroot",
+      "Source": "PhanThanhTuan_2122110123",
+      "ContentRoot": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\",
+      "BasePath": "_content/PhanThanhTuan_2122110123",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-11.jpg",
+      "SourceId": "PhanThanhTuan_2122110123",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\",
+      "BasePath": "_content/PhanThanhTuan_2122110123",
+      "RelativePath": "images/anh-avatar-cute-11#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "khq90pish0",
+      "Integrity": "WBJwumDurRAL1o5YWKTAKLLSiMJwS0FaFB1NrkkJnSs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh-avatar-cute-11.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/anh-avatar-cute-11.jpg",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-11.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WBJwumDurRAL1o5YWKTAKLLSiMJwS0FaFB1NrkkJnSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WBJwumDurRAL1o5YWKTAKLLSiMJwS0FaFB1NrkkJnSs="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh-avatar-cute-11.khq90pish0.jpg",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-11.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WBJwumDurRAL1o5YWKTAKLLSiMJwS0FaFB1NrkkJnSs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 15:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "khq90pish0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh-avatar-cute-11.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WBJwumDurRAL1o5YWKTAKLLSiMJwS0FaFB1NrkkJnSs="
+        }
+      ]
+    }
+  ]
 }
