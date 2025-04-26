@@ -18,5 +18,113 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\anh-avatar-cute-11.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\anh-avatar-cute-27.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PhanThanhTuan_2122110123</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PhanThanhTuan_2122110123</BasePath>
+      <RelativePath>images/anh-avatar-cute-27.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5bcbgk1xpy</Fingerprint>
+      <Integrity>EUNNrEfah0h/O3mZZVwtkAyhbfe3RxRn8w5NtR+Gbvc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\anh-avatar-cute-27.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\anh-avatar-cute-61.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PhanThanhTuan_2122110123</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PhanThanhTuan_2122110123</BasePath>
+      <RelativePath>images/anh-avatar-cute-61.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5yjwdwu9k6</Fingerprint>
+      <Integrity>AwZHuwYFqqK44aLs6OfHnaA81iTi0Gi4eD1kHZk+ttA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\anh-avatar-cute-61.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PhanThanhTuan_2122110123</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PhanThanhTuan_2122110123</BasePath>
+      <RelativePath>images/sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s3mnw3e0q1</Fingerprint>
+      <Integrity>WETqXNfkIQmP4I6T+Qnfe4arh3nfOJ8kTF0/lIOCb/s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PhanThanhTuan_2122110123</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PhanThanhTuan_2122110123</BasePath>
+      <RelativePath>images/sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qoir4x7o6i</Fingerprint>
+      <Integrity>plBp+m8RBHW+uOhlZmla1WhrlM/oIYwK7Z+lmNtnYm4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PhanThanhTuan_2122110123</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PhanThanhTuan_2122110123</BasePath>
+      <RelativePath>images/sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ahykofe7e3</Fingerprint>
+      <Integrity>jj92UARFsK9oCaZWHeZftTtPRuOIVuKQLEPlNnLPXGg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PhanThanhTuan_2122110123</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PhanThanhTuan_2122110123</BasePath>
+      <RelativePath>images/sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s35urvos15</Fingerprint>
+      <Integrity>qDNvL914c6rOyXi9V4CJgPF3hZiaXlgpNXU/x1wCXwg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>

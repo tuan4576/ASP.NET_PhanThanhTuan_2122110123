@@ -12,8 +12,8 @@ using PhanThanhTuan_2122110123.Data;
 namespace PhanThanhTuan_2122110123.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250418151614_AddCart")]
-    partial class AddCart
+    [Migration("20250422035858_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,7 +36,7 @@ namespace PhanThanhTuan_2122110123.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("Quantity")
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<int>("UserId")
@@ -96,16 +96,9 @@ namespace PhanThanhTuan_2122110123.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("OrderCode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("TotalAmount")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
@@ -143,7 +136,9 @@ namespace PhanThanhTuan_2122110123.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("OrderDetail");
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("PhanThanhTuan_2122110123.Model.Product", b =>
@@ -174,6 +169,9 @@ namespace PhanThanhTuan_2122110123.Migrations
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
+
+                    b.Property<int?>("Quantity")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
@@ -217,12 +215,32 @@ namespace PhanThanhTuan_2122110123.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("nvarchar(max)")
+                        .HasDefaultValue("user");
+
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.ToTable("User");
+                });
+
+            modelBuilder.Entity("PhanThanhTuan_2122110123.Model.OrderDetail", b =>
+                {
+                    b.HasOne("PhanThanhTuan_2122110123.Model.Order", null)
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("PhanThanhTuan_2122110123.Model.Order", b =>
+                {
+                    b.Navigation("OrderDetails");
                 });
 #pragma warning restore 612, 618
         }

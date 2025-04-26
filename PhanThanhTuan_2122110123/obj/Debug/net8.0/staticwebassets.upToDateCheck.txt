@@ -1,1 +1,7 @@
 wwwroot\images\anh-avatar-cute-11.jpg
+wwwroot\images\anh-avatar-cute-27.jpg
+wwwroot\images\anh-avatar-cute-61.jpg
+wwwroot\images\sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png
+wwwroot\images\sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png
+wwwroot\images\sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png
+wwwroot\images\sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png

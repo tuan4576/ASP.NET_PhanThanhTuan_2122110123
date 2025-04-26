@@ -13,12 +13,11 @@ public class Order
         public int Id { get; set; }
 
         public int UserId { get; set; }
-        public string OrderCode { get; set; } 
-        public decimal TotalAmount { get; set; } // Tổng giá trị đơn hàng
         public string Name { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
+        public virtual ICollection<OrderDetail>? OrderDetails { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime UpdatedAt { get; set; } = DateTime.Now;
 

@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\images\\anh-avatar-cute-11.jpg"
     },
     {
+      "Id": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-27.jpg",
+      "PackagePath": "staticwebassets\\images\\anh-avatar-cute-27.jpg"
+    },
+    {
+      "Id": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-61.jpg",
+      "PackagePath": "staticwebassets\\images\\anh-avatar-cute-61.jpg"
+    },
+    {
+      "Id": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png",
+      "PackagePath": "staticwebassets\\images\\sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png"
+    },
+    {
+      "Id": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "PackagePath": "staticwebassets\\images\\sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png"
+    },
+    {
+      "Id": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "PackagePath": "staticwebassets\\images\\sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png"
+    },
+    {
+      "Id": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png",
+      "PackagePath": "staticwebassets\\images\\sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PhanThanhTuan_2122110123.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

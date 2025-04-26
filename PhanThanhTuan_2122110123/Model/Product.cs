@@ -8,6 +8,7 @@
         public double Price { get; set; }
         // public int Quantity { get; set; } // Số lượng tồn kho
         public string Image { get; set; } // Đường dẫn hình ảnh
+        public int? Quantity { get; set; }
 
         public int CategoryId { get; set; }
         public int UserCreateAt { get; set; }

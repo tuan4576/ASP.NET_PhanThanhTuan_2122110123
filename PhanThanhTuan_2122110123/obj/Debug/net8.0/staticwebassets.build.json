@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z6ldfjVaHLjeQDCBmLcYwcKnr2JSPSq0PJDCCpJnJt8=",
+  "Hash": "D2wNuzKHXqqZS3z5b6d35POw3GrH9wsk5vdt6v0nps4=",
   "Source": "PhanThanhTuan_2122110123",
   "BasePath": "_content/PhanThanhTuan_2122110123",
   "Mode": "Default",
@@ -36,6 +36,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\anh-avatar-cute-11.jpg"
+    },
+    {
+      "Identity": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-27.jpg",
+      "SourceId": "PhanThanhTuan_2122110123",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\",
+      "BasePath": "_content/PhanThanhTuan_2122110123",
+      "RelativePath": "images/anh-avatar-cute-27#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5bcbgk1xpy",
+      "Integrity": "EUNNrEfah0h/O3mZZVwtkAyhbfe3RxRn8w5NtR+Gbvc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh-avatar-cute-27.jpg"
+    },
+    {
+      "Identity": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-61.jpg",
+      "SourceId": "PhanThanhTuan_2122110123",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\",
+      "BasePath": "_content/PhanThanhTuan_2122110123",
+      "RelativePath": "images/anh-avatar-cute-61#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5yjwdwu9k6",
+      "Integrity": "AwZHuwYFqqK44aLs6OfHnaA81iTi0Gi4eD1kHZk+ttA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\anh-avatar-cute-61.jpg"
+    },
+    {
+      "Identity": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png",
+      "SourceId": "PhanThanhTuan_2122110123",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\",
+      "BasePath": "_content/PhanThanhTuan_2122110123",
+      "RelativePath": "images/sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s3mnw3e0q1",
+      "Integrity": "WETqXNfkIQmP4I6T+Qnfe4arh3nfOJ8kTF0/lIOCb/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png"
+    },
+    {
+      "Identity": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "SourceId": "PhanThanhTuan_2122110123",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\",
+      "BasePath": "_content/PhanThanhTuan_2122110123",
+      "RelativePath": "images/sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qoir4x7o6i",
+      "Integrity": "plBp+m8RBHW+uOhlZmla1WhrlM/oIYwK7Z+lmNtnYm4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png"
+    },
+    {
+      "Identity": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "SourceId": "PhanThanhTuan_2122110123",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\",
+      "BasePath": "_content/PhanThanhTuan_2122110123",
+      "RelativePath": "images/sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ahykofe7e3",
+      "Integrity": "jj92UARFsK9oCaZWHeZftTtPRuOIVuKQLEPlNnLPXGg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png"
+    },
+    {
+      "Identity": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png",
+      "SourceId": "PhanThanhTuan_2122110123",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\",
+      "BasePath": "_content/PhanThanhTuan_2122110123",
+      "RelativePath": "images/sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s35urvos15",
+      "Integrity": "qDNvL914c6rOyXi9V4CJgPF3hZiaXlgpNXU/x1wCXwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png"
     }
   ],
   "Endpoints": [
@@ -62,7 +188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 15:14:09 GMT"
+          "Value": "Tue, 22 Apr 2025 04:03:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -99,7 +225,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 15:14:09 GMT"
+          "Value": "Tue, 22 Apr 2025 04:03:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -118,6 +244,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-WBJwumDurRAL1o5YWKTAKLLSiMJwS0FaFB1NrkkJnSs="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh-avatar-cute-27.5bcbgk1xpy.jpg",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-27.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EUNNrEfah0h/O3mZZVwtkAyhbfe3RxRn8w5NtR+Gbvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 08:45:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bcbgk1xpy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh-avatar-cute-27.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EUNNrEfah0h/O3mZZVwtkAyhbfe3RxRn8w5NtR+Gbvc="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh-avatar-cute-27.jpg",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-27.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EUNNrEfah0h/O3mZZVwtkAyhbfe3RxRn8w5NtR+Gbvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 08:45:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EUNNrEfah0h/O3mZZVwtkAyhbfe3RxRn8w5NtR+Gbvc="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh-avatar-cute-61.5yjwdwu9k6.jpg",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-61.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AwZHuwYFqqK44aLs6OfHnaA81iTi0Gi4eD1kHZk+ttA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 08:48:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5yjwdwu9k6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/anh-avatar-cute-61.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AwZHuwYFqqK44aLs6OfHnaA81iTi0Gi4eD1kHZk+ttA="
+        }
+      ]
+    },
+    {
+      "Route": "images/anh-avatar-cute-61.jpg",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\anh-avatar-cute-61.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AwZHuwYFqqK44aLs6OfHnaA81iTi0Gi4eD1kHZk+ttA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 08:48:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AwZHuwYFqqK44aLs6OfHnaA81iTi0Gi4eD1kHZk+ttA="
+        }
+      ]
+    },
+    {
+      "Route": "images/sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1376477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WETqXNfkIQmP4I6T+Qnfe4arh3nfOJ8kTF0/lIOCb/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 01:00:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WETqXNfkIQmP4I6T+Qnfe4arh3nfOJ8kTF0/lIOCb/s="
+        }
+      ]
+    },
+    {
+      "Route": "images/sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.s3mnw3e0q1.png",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1376477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WETqXNfkIQmP4I6T+Qnfe4arh3nfOJ8kTF0/lIOCb/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 01:00:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s3mnw3e0q1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sp-gnpf00y000070-nhan-vang-10k-dinh-ngoc-trai-freshwater-pnj-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WETqXNfkIQmP4I6T+Qnfe4arh3nfOJ8kTF0/lIOCb/s="
+        }
+      ]
+    },
+    {
+      "Route": "images/sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "857650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"plBp+m8RBHW+uOhlZmla1WhrlM/oIYwK7Z+lmNtnYm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 01:03:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-plBp+m8RBHW+uOhlZmla1WhrlM/oIYwK7Z+lmNtnYm4="
+        }
+      ]
+    },
+    {
+      "Route": "images/sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.qoir4x7o6i.png",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "857650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"plBp+m8RBHW+uOhlZmla1WhrlM/oIYwK7Z+lmNtnYm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 01:03:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qoir4x7o6i"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sp-gnspxmy000512-nhan-vang-18k-dinh-da-sapphire-pnj-peter-pan-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-plBp+m8RBHW+uOhlZmla1WhrlM/oIYwK7Z+lmNtnYm4="
+        }
+      ]
+    },
+    {
+      "Route": "images/sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.ahykofe7e3.png",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "975035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jj92UARFsK9oCaZWHeZftTtPRuOIVuKQLEPlNnLPXGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 01:02:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ahykofe7e3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jj92UARFsK9oCaZWHeZftTtPRuOIVuKQLEPlNnLPXGg="
+        }
+      ]
+    },
+    {
+      "Route": "images/sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnspxmy000514-nhan-vang-14k-dinh-da-sapphire-pnj-peter-pan-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "975035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jj92UARFsK9oCaZWHeZftTtPRuOIVuKQLEPlNnLPXGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 01:02:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jj92UARFsK9oCaZWHeZftTtPRuOIVuKQLEPlNnLPXGg="
+        }
+      ]
+    },
+    {
+      "Route": "images/sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "878929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qDNvL914c6rOyXi9V4CJgPF3hZiaXlgpNXU/x1wCXwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 01:06:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qDNvL914c6rOyXi9V4CJgPF3hZiaXlgpNXU/x1wCXwg="
+        }
+      ]
+    },
+    {
+      "Route": "images/sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.s35urvos15.png",
+      "AssetFile": "D:\\PhanThanhTuan_2122110123\\PhanThanhTuan_2122110123\\wwwroot\\images\\sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "878929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qDNvL914c6rOyXi9V4CJgPF3hZiaXlgpNXU/x1wCXwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 01:06:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s35urvos15"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sp-gnxmxmw005795-nhan-vang-14k-dinh-da-ecz-pnj-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qDNvL914c6rOyXi9V4CJgPF3hZiaXlgpNXU/x1wCXwg="
         }
       ]
     }

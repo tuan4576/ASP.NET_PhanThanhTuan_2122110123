@@ -11,100 +11,136 @@ namespace PhanThanhTuan_2122110123.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize] // ✅ Bắt buộc phải có token
     public class CartController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly AppDbContext pro;
 
         public CartController(AppDbContext context)
         {
-            _context = context;
+            pro = context;
         }
 
-        // ✅ Lấy UserId từ Token
-        private int GetUserIdFromToken()
+    
+        [HttpGet("user/{userId}")]
+        public async Task<ActionResult<IEnumerable<CartItemDto>>> GetCartItems(int userId)
         {
-            var identity = HttpContext.User.Identity as ClaimsIdentity;
-            if (identity != null)
+            var cartItems = await pro.Cart
+                .Where(c => c.UserId == userId)
+                .OrderByDescending(c => c.Id) // Hoặc OrderBy nếu muốn sắp xếp theo thứ tự khác
+                .Join(
+                    pro.Products,
+                    cart => cart.ProductId,
+                    product => product.Id,
+                    (cart, product) => new CartItemDto
+                    {
+                        CartId = cart.Id,
+                        ProductId = product.Id,
+                        Quantity = cart.Quantity,
+                        ProductName = product.Name,
+                        Price = product.Price,
+                        Image = product.Image // Đường dẫn ảnh
+                    }
+                )
+                .ToListAsync(); // Lấy tất cả sản phẩm trong giỏ hàng
+
+            if (cartItems == null || !cartItems.Any())
             {
-                var userIdClaim = identity.FindFirst(ClaimTypes.NameIdentifier);
-                if (userIdClaim != null && int.TryParse(userIdClaim.Value, out int userId))
-                {
-                    return userId;
-                }
+                return NotFound("Không tìm thấy sản phẩm nào trong giỏ hàng.");
             }
 
-            throw new UnauthorizedAccessException("User ID not found in token.");
+            return Ok(cartItems);
         }
 
-        // GET: api/Cart
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Cart>>> GetCarts()
-        {
-            int userId = GetUserIdFromToken();
-            return await _context.Cart.Where(c => c.UserId == userId).ToListAsync();
-        }
 
+
+        // POST: api/Cart
         [HttpPost]
-        public async Task<ActionResult<Cart>> AddToCart(AddToCartRequest request)
+        public async Task<ActionResult<Cart>> PostCart([FromBody] Cart cart)
         {
-            int userId = GetUserIdFromToken(); // Lấy từ token
-
-            var cart = new Cart
+            try
             {
-                UserId = userId,
-                ProductId = request.ProductId,
-                Quantity = request.Quantity
-            };
+                var existingCartItem = await pro.Cart
+                    .FirstOrDefaultAsync(c => c.UserId == cart.UserId && c.ProductId == cart.ProductId);
 
-            _context.Cart.Add(cart);
-            await _context.SaveChangesAsync();
+                if (existingCartItem != null)
+                {
+                    // Nếu sản phẩm đã có trong giỏ, tăng số lượng
+                    existingCartItem.Quantity += cart.Quantity;
+                    pro.Entry(existingCartItem).State = EntityState.Modified;
+                }
+                else
+                {
+                    // Nếu chưa có, thêm mới
+                    pro.Cart.Add(cart);
+                }
 
-            return CreatedAtAction(nameof(GetCarts), new { id = cart.Id }, cart);
+                await pro.SaveChangesAsync();
+                return Ok(cart);
+            }
+            catch (DbUpdateException dbEx)
+            {
+                Console.Error.WriteLine(dbEx.InnerException?.Message ?? dbEx.Message);
+                return BadRequest(new { error = dbEx.InnerException?.Message ?? dbEx.Message });
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine(ex);
+                return StatusCode(500, new { error = ex.Message });
+            }
         }
 
-
-        // PUT: api/Cart/5
+      
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCart(int id, Cart cart)
+        public async Task<IActionResult> PutCart(int id, Cart cart)
         {
-            int userId = GetUserIdFromToken();
-
             if (id != cart.Id)
+                return BadRequest("ID giỏ hàng không khớp.");
+
+            var existingCartItem = await pro.Cart.FirstOrDefaultAsync(c => c.Id == id);
+
+            if (existingCartItem == null)
             {
-                return BadRequest();
+                return NotFound("Không tìm thấy sản phẩm trong giỏ hàng.");
             }
 
-            var existingCart = await _context.Cart.FirstOrDefaultAsync(c => c.Id == id && c.UserId == userId);
-            if (existingCart == null)
+            // Cập nhật các thông tin trong giỏ hàng
+            existingCartItem.ProductId = cart.ProductId;
+            existingCartItem.Quantity = cart.Quantity;
+
+            pro.Entry(existingCartItem).State = EntityState.Modified;
+
+            try
             {
-                return NotFound();
+                await pro.SaveChangesAsync();
             }
-
-            existingCart.ProductId = cart.ProductId;
-            existingCart.Quantity = cart.Quantity;
-
-            await _context.SaveChangesAsync();
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!pro.Cart.Any(c => c.Id == id))
+                    return NotFound("Không tìm thấy sản phẩm trong giỏ hàng.");
+                else
+                    throw;
+            }
 
             return NoContent();
         }
 
-        // DELETE: api/Cart/5
+
+
+        // DELETE: api/Cart/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCart(int id)
         {
-            int userId = GetUserIdFromToken();
-            var cart = await _context.Cart.FirstOrDefaultAsync(c => c.Id == id && c.UserId == userId);
-
+            var cart = await pro.Cart.FindAsync(id);
             if (cart == null)
-            {
                 return NotFound();
-            }
 
-            _context.Cart.Remove(cart);
-            await _context.SaveChangesAsync();
+            pro.Cart.Remove(cart);
+            await pro.SaveChangesAsync();
 
             return NoContent();
         }
+
+      
+
     }
 }

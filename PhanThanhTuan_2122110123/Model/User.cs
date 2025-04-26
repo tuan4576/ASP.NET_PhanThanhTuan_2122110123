@@ -19,6 +19,7 @@
         // public ICollection<Product> Products { get; set; }
 
         // public ICollection<Category> Category { get; set; }
+        public string Role { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
